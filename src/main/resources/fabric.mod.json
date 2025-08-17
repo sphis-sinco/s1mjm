@@ -5,7 +5,7 @@
 	"name": "S1MJM",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"Sphis"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -35,7 +35,5 @@
 		"java": ">=21",
 		"fabric-api": "*"
 	},
-	"suggests": {
-		"another-mod": "*"
-	}
+	"suggests": {}
 }
