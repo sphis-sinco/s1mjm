@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "s1mjm",
 	"version": "${version}",
-	"name": "Example mod",
+	"name": "S1MJM",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"sphis.s1mjm.S1MJM"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"sphis.s1mjm.S1MJMClient"
 		]
 	},
 	"mixins": [
@@ -30,7 +30,7 @@
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.16.14",
+		"fabricloader": ">=0.17.2",
 		"minecraft": "~1.21.8",
 		"java": ">=21",
 		"fabric-api": "*"
